@@ -5,189 +5,190 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<style>
-    body {
-        overflow: auto;
-    }
-
-    div.divPrincipal {
-        background-color: white;
-        width: 1200px;
-        height: 700px;
-        margin: 40px 8px 40px 8px;
-        padding: 0px 8px 20px 8px;
-        overflow: visible;
-    }
-
-    div.secondaire {
-        width: 100%;
-        margin-top: 20px;
-        display: inline-block;
-        width: 45%;
-    }
-
-    h2.h2Primaire {
-        text-align: center;
-        text-transform: uppercase;
-        font-size: 15px;
-        border-bottom: 5px solid #6C829D;
-        padding-bottom: 5px;
-    }
-
-    table.tableFirst {
-        border-collapse: collapse;
-        margin: 10px;
-    }
-
-    tr.trFirst {
-        background-color: grey;
-    }
-
-    td.tdFirst {
-        border: 1px black;
-        padding: 5px 15px;
-    }
-
-    tr.trSecond {
-        background-color: rgb(120, 189, 206);
-    }
-
-    p.pPrime {
-        text-align: center;
-        font-size: 14px;
-        width: 530px;
-        border: 1px solid lightgray;
-        padding: 8px 0px;
-        margin-top: 4px;
-        margin-bottom: 0;
-    }
-
-    p.pPrimaire {
-        text-align: center;
-        font-size: 14px;
-        border: 1px solid lightgray;
-        padding: 8px 0px;
-        margin-top: 4px;
-        margin-bottom: 0;
-    }
-
-    div.colonne {
-        width: 45%;
-        margin-top: 20px;
-        float: right;
-    }
-
-    tr.trFirst1 {
-        height: 40px;
-    }
-
-    td.tdTree {
-        vertical-align: top;
-    }
-
-    p.numero {
-        background-color: #6C829D;
-        color: white;
-        width: 25px;
-        height: 25px;
-        text-align: center;
-        font-size: 14px;
-        font-weight: bold;
-        padding-top: 4px;
-        box-sizing: border-box;
-        border-radius: 50%;
-        margin: 0;
-
-    }
-
-    .preparation_etape {
-        font-size: 14px;
-        padding-left: 10px;
-        padding-bottom: 10px
-    }
-
-    .h2Second {
-        text-align: center;
-        width: 45%;
-        text-transform: uppercase;
-        font-size: 15px;
-        border-bottom: 5px solid #6C829D;
-        padding-bottom: 5px;
-    }
-
-
-    @media only screen and (max-width: 1250px) {
-        div.divPrincipal {
-            width: 1000px;
+    <style>
+        body {
+            overflow: auto;
         }
-    }
-
-    @media only screen and (max-width: 1000px) {
 
         div.divPrincipal {
-            width: 900px;
+            background-color: white;
+            width: 1200px;
+            height: 700px;
+            margin: 40px 8px 40px 8px;
+            padding: 0px 8px 20px 8px;
+            overflow: visible;
         }
 
-        p.pPrime {
-            width: 400px;
-        }
-    }
-
-    @media only screen and (max-width: 970px) {
-        div.divPrincipal {
-            width: 870px;
+        div.secondaire {
+            width: 100%;
+            margin-top: 20px;
+            display: inline-block;
+            width: 45%;
         }
 
-        p.pPrime {
-            width: 390px;
+        h2.h2Primaire {
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 15px;
+            border-bottom: 5px solid #6C829D;
+            padding-bottom: 5px;
         }
 
-    }
-
-    @media only screen and (max-width: 960px) {
-        div.divPrincipal {
-            width: 860px;
+        table.tableFirst {
+            border-collapse: collapse;
+            margin: 10px;
         }
 
-        p.pPrime {
-            width: 380px;
+        tr.trFirst {
+            background-color: grey;
         }
-
-    }
-
-    @media only screen and (max-width: 950px) {
-        div.divPrincipal {
-            width: 850px;
-        }
-
-        p.pPrime {
-            width: 370px;
-        }
-
-        p.pDef {
-            width: 70%;
-        }
-
-    }
-
-    @media only screen and (max-width: 800px) {
 
         td.tdFirst {
-            font-size: small;
-            padding: 1px 5px;
+            border: 1px black;
+            padding: 5px 15px;
+        }
+
+        tr.trSecond {
+            background-color: rgb(120, 189, 206);
+        }
+
+        p.pPrime {
+            text-align: center;
+            font-size: 14px;
+            width: 530px;
+            border: 1px solid lightgray;
+            padding: 8px 0px;
+            margin-top: 4px;
+            margin-bottom: 0;
+        }
+
+        p.pPrimaire {
+            text-align: center;
+            font-size: 14px;
+            border: 1px solid lightgray;
+            padding: 8px 0px;
+            margin-top: 4px;
+            margin-bottom: 0;
         }
 
         div.colonne {
-
-            float: none;
+            width: 45%;
+            margin-top: 20px;
+            float: right;
         }
 
-        p.pDef {
-            width: 50%;
+        tr.trFirst1 {
+            height: 40px;
         }
-    }
-</style>
+
+        td.tdTree {
+            vertical-align: top;
+        }
+
+        p.numero {
+            background-color: #6C829D;
+            color: white;
+            width: 25px;
+            height: 25px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            padding-top: 4px;
+            box-sizing: border-box;
+            border-radius: 50%;
+            margin: 0;
+
+        }
+
+        .preparation_etape {
+            font-size: 14px;
+            padding-left: 10px;
+            padding-bottom: 10px
+        }
+
+        .h2Second {
+            text-align: center;
+            width: 45%;
+            text-transform: uppercase;
+            font-size: 15px;
+            border-bottom: 5px solid #6C829D;
+            padding-bottom: 5px;
+        }
+
+
+        @media only screen and (max-width: 1250px) {
+            div.divPrincipal {
+                width: 1000px;
+            }
+        }
+
+        @media only screen and (max-width: 1000px) {
+
+            div.divPrincipal {
+                width: 900px;
+            }
+
+            p.pPrime {
+                width: 400px;
+            }
+        }
+
+        @media only screen and (max-width: 970px) {
+            div.divPrincipal {
+                width: 870px;
+            }
+
+            p.pPrime {
+                width: 390px;
+            }
+
+        }
+
+        @media only screen and (max-width: 960px) {
+            div.divPrincipal {
+                width: 860px;
+            }
+
+            p.pPrime {
+                width: 380px;
+            }
+
+        }
+
+        @media only screen and (max-width: 950px) {
+            div.divPrincipal {
+                width: 850px;
+            }
+
+            p.pPrime {
+                width: 370px;
+            }
+
+            p.pDef {
+                width: 70%;
+            }
+
+        }
+
+        @media only screen and (max-width: 800px) {
+
+            td.tdFirst {
+                font-size: small;
+                padding: 1px 5px;
+            }
+
+            div.colonne {
+
+                float: none;
+            }
+
+            p.pDef {
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+
 
 <body>
     <div class="divPrincipal">
