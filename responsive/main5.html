@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  table.tableFirst {
+    border-collapse: collapse;
+    margin: 10px;
+  }
+
+  tr.trFirst {
+    background-color: grey;
+  }
+
+  td.tdFirst {
+    border: 1px black;
+    padding: 5px 15px;
+  }
+
+  tr.trSecond {
+    background-color: rgb(120, 189, 206);
+  }
+
+  .divPrime {
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+    width: 120px;
+    height: 120px;
+
+  }
+
+  .divSecond {
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+  }
+
+  .divTree {
+
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    border-radius: 180px;
+  }
+
+  .camembert1 {
+    width: 0;
+    height: 0;
+    border: 60px solid #ddd;
+    z-index: 1;
+    border-radius: 60px;
+
+  }
+</style>
+
+<body>
+  <p>La femme BOHEME que vous êtes sera ravie de porter cette pièce. Pour aller dans votre pool party c’est celle-ci
+    qu’il vous faut.</p>
+  <h3 style="border: 1px double black; display: inline-block; padding: 1px 1px;">DESCRIPTION DE LA MATIERE </h3>
+  <ul>
+
+
+
+    <div class="divPrime">
+      <div class="divTree" style="
+                border:60px solid #ddd;"></div>
+      <div style="  position: absolute;
+                z-index: 3;  top:50px;
+              left:25px;
+                color:white;" id="txtRouge">RAFINEE</div>
+    </div>
+
+    <div class="divPrime">
+      <div class="divTree" style=" 
+            border:60px solid #4CAF50;"></div>
+      <div style=" position: absolute; z-index: 3; top:50px; left:25px; color:white;">PREMIUM</div>
+    </div>
+    <div class="divSecond">
+      <div class="divTree" style=" 
+            border:60px solid #4CAF50;"></div>
+      <div style="  position: absolute;
+            z-index: 3;  top:50px;
+              left:35px;
+            color:white;" id="txtRouge">BASIC</div>
+    </div>
+
+  </ul>
+  <h3 style="border: 1px double black; display: inline-block; padding: 1px 1px;">SENSATION DE LA MATIERE</h3>
+
+  <ul>
+    <div class="divPrime">
+      <div class="divTree" style=" 
+            border:60px solid #ddd;"></div>
+      <div style="  position: absolute;
+            z-index: 3;  top:50px;
+          left:25px;
+            color:white;" id="txtRouge">DOUCE</div>
+    </div>
+
+    <div class="divPrime">
+      <div class="divTree" style=" 
+        border:60px solid #ddd;"></div>
+      <div style="  position: absolute;
+        z-index: 3; top:50px;
+          left:25px;
+        color:white;" id="txtRouge">EPAISSE</div>
+    </div>
+    <div class="divPrime">
+      <div class="divTree" style=" 
+        border:60px solid #ddd;"></div>
+      <div style="  position: absolute;
+        z-index: 3;  top:50px;
+          left:35px;
+        color:white;" id="txtRouge">AGREABLE</div>
+    </div>
+    <div class="divSecond">
+      <div class="divTree" style=" 
+        border:60px solid #4CAF50;"></div>
+      <div style="  position: absolute;
+        z-index: 3;  top:50px;
+          left:35px;
+        color:white;" id="txtRouge">FLUIDE</div>
+    </div>
+
+
+
+    <Br></Br>
+    <div class="divPrime">
+      <div class="divTree" style=" 
+    border:60px solid #ddd;"></div>
+      <div style="  position: absolute;
+    z-index: 3;  top:50px;
+  left:25px;
+    color:white;" id="txtRouge">RIGIDE</div>
+    </div>
+
+    <div class="divPrime">
+      <div class="divTree" style=" 
+border:60px solid #ddd;"></div>
+      <div style="  position: absolute;
+z-index: 3; top:50px;
+  left:25px;
+color:white;" id="txtRouge">EXTENSIBLE</div>
+    </div>
+    <div class="divPrime">
+      <div class="divTree" style=" 
+border:60px solid #ddd;"></div>
+      <div style="  position: absolute;
+z-index: 3;  top:50px;
+  left:35px;
+color:white;" id="txtRouge">PRET DU CORP</div>
+    </div>
+    <div class="divSecond">
+      <div class="divTree" style="
+border:60px solid #4CAF50;"></div>
+      <div style="  position: absolute;
+z-index: 3;  top:50px;
+  left:35px;
+color:white;" id="txtRouge">LEGERE</div>
+
+
+  </ul>
+  <h3 style="border: 1px double black; display: inline-block; padding: 1px 1px;">DESCRIPTION DU PRODUIT</h3>
+  <p>Nos produits sont choisis scrupuleusement avec des critères de qualité bien définis.</p>
+  <p>Tous nos vêtements ont une moyenne minimum de 7.</p>
+  <p>Une note est attribuée selon les caractéristiques suivantes :</p>
+  <ul>
+    <div style="  position:relative;display: inline-block;
+width:250px; height:120px;">QUALITE DE LA MATIERE
+
+      <div class="camembert1" style=" position: absolute;
+    "></div>
+
+      <div style=" position: absolute;
+    width:0; height:0; 
+    border:60px solid #ddd; z-index: 2;
+  border:60px solid green;
+  border-top:60px solid transparent;
+  border-right:60px solid transparent;
+    border-radius:60px;" id="cambembertRouge1"></div>
+
+      <div style=" position: absolute;
+    width:0; height:0; 
+    border:60px solid #ddd;  z-index: 2;
+  border:60px solid green;
+  border-top:60px solid transparent;
+  border-right:60px solid transparent;
+  transform: rotate(0deg);
+    border-radius:60px;" id="cambembertRouge2"></div>
+
+      <div style="  position: absolute;
+    z-index: 3;  top:90px;
+  left:50px;
+    color:white;" id="txtRouge"> 5</div>
+    </div>
+
+
+    <div style="  position:relative;display: inline-block;
+        width:250px; height:120px;">DESIGN DU PRODUIT
+      <div class="camembert1" style=" position: absolute;
+           "></div>
+      <div style=" position: absolute;
+            width:0; height:0; 
+            border:60px solid #ddd; z-index: 2;
+          border:60px solid green;
+          border-top:60px solid transparent;
+          border-right:60px solid transparent;
+            border-radius:60px;" id="cambembertRouge1"></div>
+      <div style=" position: absolute;
+            width:0; height:0; 
+            border:60px solid #ddd;  z-index: 2;
+          border:60px solid green;
+          border-top:60px solid transparent;
+          border-right:60px solid transparent;
+          transform: rotate(36deg);
+            border-radius:60px;" id="cambembertRouge2"></div>
+
+      <div style="  position: absolute;
+            z-index: 3;  top:90px;
+          left:50px;
+            color:white;" id="txtRouge"> 6</div>
+    </div>
+
+    <div style="  position:relative;display: inline-block;
+        width:250px; height:120px;">QUALITE VISUEL DU PRODUIT
+      <div class="camembert1" style=" position: absolute;
+            "></div>
+      <div style=" position: absolute;
+            width:0; height:0; 
+            border:60px solid #ddd; z-index: 2;
+          border:60px solid green;
+          border-top:60px solid transparent;
+          border-right:60px solid transparent;
+            border-radius:60px;" id="cambembertRouge1"></div>
+      <div style=" position: absolute;
+            width:0; height:0; 
+            border:60px solid #ddd;  z-index: 2;
+          border:60px solid green;
+          border-top:60px solid transparent;
+          border-right:60px solid transparent;
+          transform: rotate(36deg);
+            border-radius:60px;" id="cambembertRouge2"></div>
+
+      <div style="  position: absolute;
+            z-index: 3;  top:90px;
+          left:50px;
+            color:white;" id="txtRouge"> 6</div>
+    </div>
+
+
+
+    <Br></Br>
+    <Br></Br>
+
+    <div style="  position:relative;display: inline-block;
+        width:250px; height:120px;">CONFORT USUEL ET SENSORIEL
+      <div class="camembert1" style=" position: absolute;
+           "></div>
+      <div style=" position: absolute;
+            width:0; height:0; 
+            border:60px solid #ddd; z-index: 2;
+          border:60px solid green;
+          border-top:60px solid transparent;
+          border-right:60px solid transparent;
+            border-radius:60px;" id="cambembertRouge1"></div>
+      <div style=" position: absolute;
+            width:0; height:0; 
+            border:60px solid #ddd;  z-index: 2;
+          border:60px solid green;
+          border-top:60px solid transparent;
+          border-right:60px solid transparent;
+          transform: rotate(72deg);
+            border-radius:60px;" id="cambembertRouge2"></div>
+
+      <div style="  position: absolute;
+            z-index: 3;  top:90px;
+          left:50px;
+            color:white;" id="txtRouge"> 7</div>
+    </div>
+
+    <div style="  position:relative;display: inline-block;
+                width:250px; height:120px;">QUALITE DE LA FINITION
+      <div class="camembert1" style=" position: absolute;
+                   "></div>
+      <div style=" position: absolute;
+                    width:0; height:0; 
+                    border:60px solid #ddd; z-index: 2;
+                  border:60px solid green;
+                  border-top:60px solid transparent;
+                  border-right:60px solid transparent;
+                    border-radius:60px;" id="cambembertRouge1"></div>
+      <div style=" position: absolute;
+                    width:0; height:0; 
+                    border:60px solid #ddd;  z-index: 2;
+                  border:60px solid green;
+                  border-top:60px solid transparent;
+                  border-right:60px solid transparent;
+                  transform: rotate(72deg);
+                    border-radius:60px;" id="cambembertRouge2"></div>
+
+      <div style="  position: absolute;
+                    z-index: 3;  top:90px;
+                  left:50px;
+                    color:white;" id="txtRouge"> 7</div>
+    </div>
+
+    <div style="  position:relative;display: inline-block;
+                width:250px; height:120px;">RAPPORT QUALITE PRIX
+      <div class="camembert1" style=" position: absolute;
+                    "></div>
+      <div style=" position: absolute;
+                    width:0; height:0; 
+                    border:60px solid #ddd; z-index: 2;
+                  border:60px solid green;
+                  border-top:60px solid transparent;
+                  border-right:60px solid transparent;
+                    border-radius:60px;" id="cambembertRouge1"></div>
+      <div style=" position: absolute;
+                    width:0; height:0; 
+                    border:60px solid #ddd;  z-index: 2;
+                  border:60px solid green;
+                  border-top:60px solid transparent;
+                  border-right:60px solid transparent;
+                  transform: rotate(108deg);
+                    border-radius:60px;" id="cambembertRouge2"></div>
+
+      <div style="  position: absolute;
+                    z-index: 3;  top:90px;
+                  left:50px;
+                    color:white;" id="txtRouge"> 8</div>
+    </div>
+    <Br></Br>
+    <Br></Br>
+    <div style="  position:relative;display: inline-block;
+        width:250px; "> </div>
+
+    <div style="  position:relative;display: inline-block;
+                width:250px; height:120px;">MOYENNE
+      <div class="camembert1" style=" position: absolute;
+                  "></div>
+      <div style=" position: absolute;
+                    width:0; height:0; 
+                    border:60px solid #ddd; z-index: 2;
+                  border:60px solid green;
+                  border-top:60px solid transparent;
+                  border-right:60px solid transparent;
+                    border-radius:60px;" id="cambembertRouge1"></div>
+      <div style=" position: absolute;
+                    width:0; height:0; 
+                    border:60px solid #ddd;  z-index: 2;
+                  border:60px solid green;
+                  border-top:60px solid transparent;
+                  border-right:60px solid transparent;
+                  transform: rotate(72deg);
+                    border-radius:60px;" id="cambembertRouge2"></div>
+
+      <div style="  position: absolute;
+                    z-index: 3;  top:90px;
+                  left:50px;
+                    color:white;" id="txtRouge"> 7</div>
+    </div>
+
+
+
+  </ul>
+  <Br></Br>
+
+  <table class="tableFirst">
+
+    <tr class="trFirst">
+      <td class="tdFirst">Évaluation</td>
+      <td class="tdFirst"> Qualité </td>
+      <td class="tdFirst">Conception</td>
+      <td class="tdFirst">visuelle</td>
+      <td class="tdFirst">Confort </td>
+      <td class="tdFirst">Finition</td>
+      <td class="tdFirst">qualité/prix</td>
+
+    </tr>
+    <tr>
+      <td class="tdFirst">4</td>
+      <td class="tdFirst"> Mauvais</td>
+      <td class="tdFirst"></td>
+      <td class="tdFirst">Mauvais</td>
+      <td class="tdFirst"></td>
+      <td class="tdFirst">Mauvais</td>
+      <td class="tdFirst"></td>
+
+    </tr>
+    <tr class="trSecond">
+      <td class="tdFirst">5</td>
+      <td class="tdFirst"> Moyen</td>
+      <td class="tdFirst"></td>
+      <td class="tdFirst">Moyen</td>
+      <td class="tdFirst"></td>
+      <td class="tdFirst">Moyen</td>
+      <td class="tdFirst"></td>
+
+    </tr>
+    <tr>
+      <td class="tdFirst">6 </td>
+      <td class="tdFirst"> Intermédiaire</td>
+      <td class="tdFirst">Minimaliste</td>
+      <td class="tdFirst">Intermédiaire</td>
+      <td class="tdFirst">Mediocre</td>
+      <td class="tdFirst">Intermédiaire</td>
+      <td class="tdFirst"> moyen</td>
+
+    </tr>
+    <tr class="trSecond">
+      <td class="tdFirst">7 </td>
+      <td class="tdFirst"> Bien</td>
+      <td class="tdFirst">Populaire</td>
+      <td class="tdFirst">Bien</td>
+      <td class="tdFirst">passable</td>
+      <td class="tdFirst">Bien</td>
+      <td class="tdFirst">Justifié</td>
+
+    </tr>
+    <tr>
+      <td class="tdFirst">8</td>
+      <td class="tdFirst"> Très bien</td>
+      <td class="tdFirst">Innovant</td>
+      <td class="tdFirst">Très bien</td>
+      <td class="tdFirst">acceptable</td>
+      <td class="tdFirst">Très bien</td>
+      <td class="tdFirst">Bon </td>
+
+    </tr>
+    <tr style="background-color: rgb(120, 189, 206);">
+      <td class="tdFirst">9</td>
+      <td class="tdFirst"> Excellent</td>
+      <td class="tdFirst">Audacieux</td>
+      <td class="tdFirst">Excellent</td>
+      <td class="tdFirst">Confortable</td>
+      <td class="tdFirst">Excellent</td>
+      <td class="tdFirst">Très bon</td>
+
+    </tr>
+    <tr>
+      <td class="tdFirst">10</td>
+      <td class="tdFirst"> Parfait</td>
+      <td class="tdFirst">Abouti</td>
+      <td class="tdFirst">Parfait</td>
+      <td class="tdFirst">Parfait</td>
+      <td class="tdFirst">Parfait</td>
+      <td class="tdFirst">Parfait</td>
+
+    </tr>
+
+  </table>
+
+  <h3 style="border: 1px double black; display: inline-block; padding: 1px 1px;">MORPHOLOGIE</h3>
+  <p>Notre mannequin porte une taille S, pèse 60 KG, mesure 1m68. </p>
+  <p>Les critères ci-dessous sont définis par rapport à sa morphologie :</p>
+  <ul>
+    <li>
+      Habille normalement
+    </li>
+  </ul>
+  <p>Pour plus de précisons référez-vous au tableau des tailles. </p>
+
+</body>
+
+</html>
