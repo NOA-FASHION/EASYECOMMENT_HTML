@@ -56,11 +56,24 @@
             color: white;
         }
 
+        .divTrees {
+            box-sizing: border-box;
+            text-align: center;
+            display: inline-block;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 50%;
+            color: white;
+            float: right;
+        }
+
         .divFaure {
             box-sizing: border-box;
             width: 700px;
             background-color: #ddd;
             display: inline-block;
+
+            width: 50%;
 
         }
 
@@ -70,6 +83,82 @@
             padding-top: 10px;
             padding-bottom: 10px;
             color: white;
+
+        }
+
+        .largeurDescriptionProd {
+            width: 1500px;
+
+        }
+
+        .largeursensationMatiere {
+            width: 1200px;
+        }
+
+        @media only screen and (max-width: 1600px) {
+
+            .largeurDescriptionProd {
+                width: 1200px;
+
+            }
+        }
+
+        @media only screen and (max-width: 1300px) {
+
+            .largeurDescriptionProd {
+                width: 90%;
+            }
+
+            .largeursensationMatiere {
+                width: 90%;
+            }
+
+            .divPrime {
+                width: 90%;
+            }
+
+        }
+
+        @media only screen and (max-width: 1300px) {
+            .divSecond {
+                display: block;
+                margin: 10px;
+            }
+
+            .divTree {
+                display: block;
+                margin: 10px;
+            }
+
+            .divTrees {
+                display: block;
+                margin: 10px;
+                float: none;
+            }
+
+            .largeurDescriptionProd {
+                width: 100%;
+            }
+
+            .largeursensationMatiere {
+                width: 100%;
+            }
+
+            .divPrime {
+                width: 100%;
+            }
+
+            .divFaure {
+                display: block;
+                margin: 10px;
+                float: none;
+
+            }
+
+            td.tdFirst {
+                font-size: x-small;
+                padding: 1px 2px;
+            }
 
         }
     </style>
@@ -100,7 +189,7 @@
     <h3 class="h3First">SENSATION DE LA MATIERE</h3>
 
     <ul>
-        <div style="width: 1200px;">
+        <div class="largeursensationMatiere">
             <div class="divSecond" style=" background-color: #ddd;
             ">DOUCE</div>
 
@@ -112,7 +201,7 @@
                ">AGREABLE</div>
         </div>
         <BR></BR>
-        <div style="width: 1200px;">
+        <div class="largeursensationMatiere">
             <div class="divSecond" style=" background-color: #4CAF50;
         ">FLUIDE</div>
 
@@ -125,11 +214,11 @@
         </div>
         <BR></BR>
 
-        <div style="width: 1200px;">
+        <div class="largeursensationMatiere">
             <div class="divTree" style=" background-color: #ddd;
         ">PRET DU CORP</div>
 
-            <div class="divTree" style="float: right;
+            <div class="divTrees" style="
         background-color: #4CAF50;
         ">LEGERE</div>
 
@@ -143,42 +232,42 @@
     <p>Tous nos vêtements ont une moyenne minimum de 7.</p>
     <p>Une note est attribuée selon les caractéristiques suivantes :</p>
     <ul>
-        <div style="width: 1500px;">
+        <div class="largeurDescriptionProd">
             <div class="divFaure" style=" width: 49%;">
                 <div class="divFive" style="
             width: 50%; background-color: #4CAF50;
             "> QUALITE DE LA MATIERE: 5</div>
             </div>
 
-            <div class="divFaure" style="float: right;width: 50%;">
+            <div class="divFaure">
                 <div class="divFive" style="
             width: 60%; background-color: blue;
             ">DESIGN DU PRODUIT: 6</div>
             </div>
         </div>
         <Br></Br>
-        <div style="width: 1500px;">
+        <div class="largeurDescriptionProd">
             <div class="divFaure" style="width: 49%;">
                 <div class="divFive" style=" 
             width: 60%; background-color: black;
             "> QUALITE VISUEL DU PRODUIT: 6</div>
             </div>
 
-            <div class="divFaure" style=" float: right;width: 50%;">
+            <div class="divFaure">
                 <div class="divFive" style="
             width: 70%; background-color: yellow;
             ">CONFORT USUEL ET SENSORIEL: 7</div>
             </div>
         </div>
         <Br></Br>
-        <div style="width: 1500px;">
+        <div class="largeurDescriptionProd">
             <div class="divFaure" style=" width: 49%;">
                 <div class="divFive" style="
             width: 70%; background-color: yellowgreen;
             "> QUALITE DE LA FINITION: 7</div>
             </div>
 
-            <div class="divFaure" style=" float: right;width: 50%;">
+            <div class="divFaure">
                 <div class="divFive" style="
             width: 80%; background-color: #af4ca2;
             ">RAPPORT QUALITE PRIX: 8</div>
