@@ -77,6 +77,10 @@
 
         }
 
+        .divFaures {
+            width: 49%;
+        }
+
         .divFive {
             box-sizing: border-box;
             text-align: center;
@@ -123,6 +127,15 @@
             .divSecond {
                 display: block;
                 margin: 10px;
+                width: 70%;
+            }
+
+            .divFaures {
+                width: 70%;
+            }
+
+            .divFaure {
+                width: 70%;
             }
 
             .divTree {
@@ -160,6 +173,75 @@
                 padding: 1px 2px;
             }
 
+        }
+
+        @media only screen and (max-width: 720px) {
+            .divSecond {
+
+                width: 90%;
+            }
+
+            .divFaures {
+                width: 90%;
+            }
+
+            .divFaure {
+                width: 90%;
+            }
+        }
+
+        @media only screen and (max-width: 539px) {
+            .divSecond {
+
+                font-size: small;
+            }
+
+            .divFaures {
+                font-size: small;
+            }
+
+            .divFaure {
+                font-size: small;
+            }
+
+            .divFive {
+                font-size: small;
+            }
+
+            .divTree {
+                font-size: small;
+            }
+
+            .divTrees {
+                font-size: small;
+            }
+        }
+
+        @media only screen and (max-width: 451px) {
+            .divSecond {
+
+                font-size: x-small;
+            }
+
+            .divFaures {
+                font-size: x-small;
+            }
+
+            .divFaure {
+                font-size: x-small;
+            }
+
+            .divFive {
+                font-size: x-small;
+            }
+
+            .divTree {
+                font-size: x-small;
+            }
+
+            .divTrees {
+                font-size: x-small;
+            }
         }
     </style>
 </head>
@@ -233,7 +315,7 @@
     <p>Une note est attribuée selon les caractéristiques suivantes :</p>
     <ul>
         <div class="largeurDescriptionProd">
-            <div class="divFaure" style=" width: 49%;">
+            <div class="divFaure divFaures">
                 <div class="divFive" style="
             width: 50%; background-color: #4CAF50;
             "> QUALITE DE LA MATIERE: 5</div>
@@ -247,7 +329,7 @@
         </div>
         <Br></Br>
         <div class="largeurDescriptionProd">
-            <div class="divFaure" style="width: 49%;">
+            <div class="divFaure divFaures">
                 <div class="divFive" style=" 
             width: 60%; background-color: black;
             "> QUALITE VISUEL DU PRODUIT: 6</div>
@@ -261,7 +343,7 @@
         </div>
         <Br></Br>
         <div class="largeurDescriptionProd">
-            <div class="divFaure" style=" width: 49%;">
+            <div class="divFaure divFaures">
                 <div class="divFive" style="
             width: 70%; background-color: yellowgreen;
             "> QUALITE DE LA FINITION: 7</div>
