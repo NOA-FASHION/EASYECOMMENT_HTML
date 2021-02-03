@@ -108,8 +108,10 @@
     .divSixt {
       position: relative;
       display: inline-block;
+      background-color: blueviolet;
       width: 250px;
       height: 120px;
+      margin: 20px;
     }
 
     .h3Prime {
@@ -124,6 +126,14 @@
       top: 90px;
       left: 50px;
       color: white;
+    }
+
+    @media only screen and (max-width: 936px) {
+      .divSixt {
+
+        width: 200px;
+
+      }
     }
   </style>
 
@@ -209,17 +219,14 @@ border:60px solid #4CAF50;"></div>
   <p>Nos produits sont choisis scrupuleusement avec des critères de qualité bien définis.</p>
   <p>Tous nos vêtements ont une moyenne minimum de 7.</p>
   <p>Une note est attribuée selon les caractéristiques suivantes :</p>
-  <ul>
+  <ul style="background-color: #4CAF50; width: 100%;">
     <div class="divSixt">QUALITE DE LA MATIERE
 
-      <div class="camembert1" style=" position: absolute;
-    "></div>
+      <div class="camembert1" style=" position: absolute;"></div>
 
       <div class="divFive"></div>
 
-      <div style="
-  transform: rotate(0deg);
-    " id="cambembertRouge2"></div>
+      <div style="transform: rotate(0deg);" id="cambembertRouge2"></div>
 
       <div id="txtRouge"> 5</div>
     </div>
