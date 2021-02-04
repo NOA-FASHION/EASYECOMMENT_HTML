@@ -108,7 +108,7 @@
     .divSixt {
       position: relative;
       display: inline-block;
-      background-color: blueviolet;
+
       width: 250px;
       height: 120px;
       margin: 20px;
@@ -133,6 +133,26 @@
 
         width: 200px;
 
+      }
+    }
+
+    @media only screen and (max-width: 868px) {
+      td.tdFirst {
+        font-size: small;
+        padding: 1px 2px;
+      }
+    }
+
+    @media only screen and (max-width: 789px) {
+      .divSixt {
+        font-size: small;
+      }
+    }
+
+    @media only screen and (max-width: 595px) {
+      td.tdFirst {
+        font-size: x-small;
+        padding: 1px 2px;
       }
     }
   </style>
@@ -219,7 +239,7 @@ border:60px solid #4CAF50;"></div>
   <p>Nos produits sont choisis scrupuleusement avec des critères de qualité bien définis.</p>
   <p>Tous nos vêtements ont une moyenne minimum de 7.</p>
   <p>Une note est attribuée selon les caractéristiques suivantes :</p>
-  <ul style="background-color: #4CAF50; width: 100%;">
+  <ul>
     <div class="divSixt">QUALITE DE LA MATIERE
 
       <div class="camembert1" style=" position: absolute;"></div>
@@ -297,13 +317,9 @@ border:60px solid #4CAF50;"></div>
         width:250px; "> </div>
 
     <div class="divSixt">MOYENNE
-      <div class="camembert1" style=" position: absolute;
-                  "></div>
+      <div class="camembert1" style=" position: absolute;"></div>
       <div id="cambembertRouge1"></div>
-      <div style=" 
-                  transform: rotate(72deg);
-                    " id="cambembertRouge2"></div>
-
+      <div style=" transform: rotate(72deg); " id="cambembertRouge2"></div>
       <div id="txtRouge"> 7</div>
     </div>
 
@@ -313,7 +329,6 @@ border:60px solid #4CAF50;"></div>
   <Br></Br>
 
   <table class="tableFirst">
-
     <tr class="trFirst">
       <td class="tdFirst">Évaluation</td>
       <td class="tdFirst"> Qualité </td>
@@ -322,7 +337,6 @@ border:60px solid #4CAF50;"></div>
       <td class="tdFirst">Confort </td>
       <td class="tdFirst">Finition</td>
       <td class="tdFirst">qualité/prix</td>
-
     </tr>
     <tr>
       <td class="tdFirst">4</td>
